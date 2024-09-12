@@ -3,6 +3,7 @@ package Latihan;
 public class LatihanForEach {
     public static void main(String[] args) {
         int[] angka = new int[20];
+        int urutan = 1;
         for(int i = 0; i < 20; i++){
             angka[i] = i + 1;
         }
@@ -13,7 +14,8 @@ public class LatihanForEach {
             if(x % 3 == 0){
                 continue;
             }
-            System.out.println(x + " ");
+            System.out.println("angka ke - " + urutan + ": " + x);
+            urutan++;
         }
     }
 }
