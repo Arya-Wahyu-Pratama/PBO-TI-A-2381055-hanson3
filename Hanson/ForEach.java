@@ -8,7 +8,7 @@ public class ForEach {
                 continue;
             System.out.println(namaBuah);
         }
-
+System.out.println("===============");
         for(String namaBuah : buah) {
             if (namaBuah.equals("Mangga"))
                 break;
